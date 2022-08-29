@@ -31,12 +31,15 @@ public class MainActivity extends AppCompatActivity {
                 int color = ((ColorDrawable) bgElement.getBackground()).getColor();
                 if (color == Color.BLUE) {
                     bgElement.setBackgroundColor(Color.RED);
+                    button.setText("AZUL");
+                    button.setTextColor(Color.BLUE);
                 } else {
                     bgElement.setBackgroundColor(Color.BLUE);
+                    button.setText("VERMELHO");
+                    button.setTextColor(Color.RED);
                 }
             }
         });
     }
-
 
 }
