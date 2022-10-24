@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name"> multiactivity </string>
+    <string name="versao"> aplicativo de várias telas </string>
+
+    <string name="btn1"> abrir tela 1 </string>
+    <string name="btn2"> abrir tela 2 </string>
+</resources>
